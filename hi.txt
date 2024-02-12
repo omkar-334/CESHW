@@ -1,0 +1,16 @@
+  // async function getCurrentTab() {
+  //   // `tab` will either be a `tabs.Tab` instance or `undefined`.
+  //   let [tab] = await chrome.tabs.query(active: true, lastFocusedWindow: true);
+  //   return tab;
+  // }
+
+
+//   chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
+//     let url = tabs[0].url;
+//     // use `url` here inside the callback because it's asynchronous!
+// });
+//    let [tab] = await chrome.tabs.query({active:true, currentWindow: true});
+
+//    chrome.scripting.executeScript({
+//     target:{tabId:tab.id},
+//     func: contentpage,
